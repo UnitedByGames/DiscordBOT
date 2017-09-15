@@ -26,7 +26,7 @@ bot.registerModule(require('./modules/admin/avatarchanger'));
 bot.registerModule(require('./modules/commands/server'));
 bot.registerModule(require('./modules/commands/discords'));
 bot.registerModule(require('./modules/commands/arkserver'));
-bot.registerModule(require('./modules/commands/Mcserver'));
+bot.registerModule(require('./modules/commands/mcserver'));
 bot.registerModule(require('./modules/commands/sub'));
 bot.registerModule(require('./modules/commands/ping'));
 bot.registerModule(require('./modules/commands/about'));
