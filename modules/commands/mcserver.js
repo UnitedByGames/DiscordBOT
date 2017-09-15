@@ -10,6 +10,8 @@ module.exports = (bot) => {
 		embed.setColor(0x008000)
 		embed.setThumbnail(bot.client.user.avatarURL)
 		embed.addField("Coming SOON!", "", true)
+		embed.addField("Coming SOON!", "", true)
+		embed.addField("Coming SOON!", "", true)
 		embed.setFooter("Sent via "+bot.client.user.username, bot.client.user.avatarURL)
 		embed.setTimestamp()
 		message.channel.send({embed})        
